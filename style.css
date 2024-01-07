@@ -71,6 +71,9 @@ a{
     font-weight: 400;
     text-decoration: none;
 }
+hr{
+    border: 1px solid #efefef42;
+}
 footer{
     background-color: #0B0D17;
     color: #ffffff;
@@ -214,4 +217,9 @@ margin: auto;
 }
 .anim img:hover{
     transform: scale(1.1);
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;;
+    text-align: left;
 }
